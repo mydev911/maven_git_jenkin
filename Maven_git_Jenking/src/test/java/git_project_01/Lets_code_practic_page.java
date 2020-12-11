@@ -18,6 +18,8 @@ public class Lets_code_practic_page {
 		driver.manage().window().maximize();
 		Thread.sleep(30);
 		
+		System.out.println("website url is = " + driver.getCurrentUrl());
+		
 		
 		
 
